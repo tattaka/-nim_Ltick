@@ -1,0 +1,11 @@
+{"compile":[
+["/Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main.c", "gcc -c  -w -O3 -fno-strict-aliasing  -I/usr/local/Cellar/nim/0.17.2/nim/lib -o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main.o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main.c"],
+["/Users/tattaka/Desktop/nim_Ltick/Src/nimcache/stdlib_system.c", "gcc -c  -w -O3 -fno-strict-aliasing  -I/usr/local/Cellar/nim/0.17.2/nim/lib -o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/stdlib_system.o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/stdlib_system.c"],
+],
+"link":[
+"/Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main_.o",
+"/Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main.o",
+"/Users/tattaka/Desktop/nim_Ltick/Src/nimcache/stdlib_system.o"
+],
+"linkcmd": "gcc   -o /Users/tattaka/Desktop/nim_Ltick/Src/main  /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main_.o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/main.o /Users/tattaka/Desktop/nim_Ltick/Src/nimcache/stdlib_system.o    "
+}
