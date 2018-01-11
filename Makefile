@@ -82,7 +82,7 @@ PERIFLIB_SOURCES =
 #######################################
 # binaries
 #######################################
-BINPATH =/PASS/bin/
+BINPATH =/Users/tattaka/gcc-arm-none-eabi-4_8-2013q4/bin/
 PREFIX = arm-none-eabi-
 CC = $(BINPATH)/$(PREFIX)gcc
 AS = $(BINPATH)/$(PREFIX)gcc -x assembler-with-cpp

@@ -60,7 +60,7 @@ NIM_EXTERNC N_NOINLINE(void, NimMainModule)(void) {
 	{
 		while (1) {
 			LED1_tick();
-			HAL_Delay(((NU32) 1000));
+			HAL_Delay(((NU32) 200));
 		}
 	}
 }

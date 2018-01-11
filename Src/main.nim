@@ -7,4 +7,4 @@ when isMainModule:
   main_init()
   while true:
     LED1_tick()
-    HAL_Delay(1000)
+    HAL_Delay(200)
